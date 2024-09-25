@@ -2,7 +2,6 @@
 
 #include <iostream>
 
-
 int main() {
     setlocale(LC_ALL, "pt_BR.UTF-8");
 
@@ -23,6 +22,6 @@ int main() {
         std::cout << "Nota F" << std::endl;
         std::cout << "Reprovado" << std::endl;
     }
-    
+
     return 0;
 }
