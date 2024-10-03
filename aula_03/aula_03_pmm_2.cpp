@@ -11,7 +11,7 @@ int main() {
     image.open("Image_2.ppm");
     // Image PPM Header
     image << "P3" << std::endl;
-    image << "1000 1000" << std::endl;
+    image << "250 250" << std::endl;
     image << "255" << std::endl;
 
     //Timer
@@ -19,8 +19,8 @@ int main() {
     std::cout << "início do processo" << std::endl;
 
     //Image PPM Body
-    for (int y = 0; y < 1000; y++) {
-        for (int x = 0; x < 1000; x++) {
+    for (int y = 0; y < 250; y++) {
+        for (int x = 0; x < 250; x++) {
             // Pixel RGB (0->> 255) 8 bits
             // image << "R" << " " << "G" << " " << "B" << std::endl;
             image << y << " " << 255 << " " << x << std::endl;

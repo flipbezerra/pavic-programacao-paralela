@@ -68,7 +68,7 @@ int main() {
         intblue = std::stoi(blue, nullptr);
 
         // Filtro azul
-        intblue = intblue + 50;
+        intblue = intblue + 100;
 
         if (intblue > 249) {
             intblue = 255;
